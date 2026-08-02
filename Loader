@@ -40,14 +40,6 @@ local function trim(value)
 end
 
 local function loadAssets()
-    if type(isfolder) ~= "function"
-        or type(makefolder) ~= "function"
-        or type(isfile) ~= "function"
-        or type(writefile) ~= "function"
-        or type(getcustomasset) ~= "function" then
-        return
-    end
-
     local ok = pcall(function()
         if not isfolder("Averlik Hub") then
             makefolder("Averlik Hub")
