@@ -125,7 +125,7 @@ local function submitKey(key)
         if Game then
             Luarmor.script_id = Game["id"]
             if Game["keyless"] then
-                if enteredKey == "DISCORD_AVERLIK" then
+                if enteredKey == "NEW_EVENTgag2" then
                     setResult("Success. The script is loading.", "success")
                     writefile("Averlik Hub/SavedKey.txt",enteredKey)
                     task.delay(1.5,closeui)
