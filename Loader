@@ -1,4 +1,4 @@
-getgenv().DS = "https://discord.gg/bJFF653nK"
+getgenv().DS = "discord.gg/bJFF653nK"
 
 if getgenv().averlik_loaded then
     while task.wait(99999999) do end
