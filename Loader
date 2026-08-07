@@ -1,6 +1,6 @@
 getgenv().DS = "discord.gg/bJFF653nK"
 
-if getgenv().averlik_loaded then
+if getgenv().averlik_loaded == true then
     while task.wait(99999999) do end
 end
 
@@ -9,6 +9,7 @@ local Luarmor = loadstring(game:HttpGet("https://sdkapi-public.luarmor.net/libra
 if not isfolder("Averlik Hub") then
     makefolder("Averlik Hub")
 end
+writefile("Averlik Hub/Discord.txt",getgenv().DS)
 
 local Config = {
     Id = "AverlikKeyGui",
