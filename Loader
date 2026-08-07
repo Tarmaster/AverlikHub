@@ -23,7 +23,8 @@ local Config = {
 
 local Games = {
     ["10200395747"] = {id = "c6ccaebf880f5614ee1121cfb0e10740", keyless = true}, -- gag2
-    ["6035872082"] = {id = "8f607144fa2a449f600b0cf7a0852597",keyless = true} -- rivals
+    ["6035872082"] = {id = "8f607144fa2a449f600b0cf7a0852597",keyless = true}, -- rivals
+    ["66654135"] = {id = "6223a21ff3757d564b1911e94270a98e",keyless = true}, -- mm2
 }
 
 local Assets = {
