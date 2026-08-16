@@ -27,6 +27,7 @@ local Games = {
     ["66654135"] = {id = "6223a21ff3757d564b1911e94270a98e",keyless = true}, -- mm2
     ["10144280947"] = {id = "c2bda132c0248cfe3f90b98e16d5975e",keyless = true}, -- monke
     ["9855761734"] = {id = "a429d0a4fefdca4f72725e2158ce3e0d",keyless = true}, -- sandieo
+    ["9584852943"] = {id = "7124692d8300ccbd8eb76179ad91f4a7",keyless = true}, --keyboard
 }
 
 local Assets = {
@@ -872,6 +873,7 @@ UserInputService.InputEnded:Connect(function(input)
 end)
 
 tween(window, 0.26, { GroupTransparency = 0.05 }, Enum.EasingStyle.Quint, Enum.EasingDirection.Out)
+
 task.wait(0.3)
 if isfile("Averlik Hub/SavedKey.txt") then
     print("read from save")
