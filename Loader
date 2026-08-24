@@ -5,6 +5,7 @@ if getgenv().averlik_loaded == true then
 end
 
 local Luarmor = loadstring(game:HttpGet("https://sdkapi-public.luarmor.net/library.lua"))()
+print("Luarmor: ",Luarmor)
 
 if not isfolder("Averlik Hub") then
     makefolder("Averlik Hub")
@@ -131,7 +132,7 @@ local function submitKey(key)
         if Game then
             Luarmor.script_id = Game["id"]
             if Game["keyless"] then
-                if enteredKey == "NEW_EVENTgag2" then
+                if enteredKey == "AVERLIK_123" then
                     setResult("Success. The script is loading.", "success")
                     writefile("Averlik Hub/SavedKey.txt",enteredKey)
                     task.delay(1.5,closeui)
