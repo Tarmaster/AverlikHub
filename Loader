@@ -29,6 +29,7 @@ local Games = {
     ["10144280947"] = {id = "c2bda132c0248cfe3f90b98e16d5975e",keyless = true}, -- monke
     ["9855761734"] = {id = "78d777167283167b334564a8fa57b490",keyless = true}, -- sandieo
     ["9584852943"] = {id = "7124692d8300ccbd8eb76179ad91f4a7",keyless = true}, --keyboard
+    ["1016936714"] = {id = "18d3119dadaaa4540184b38d36d4c790",keyless = true}, -- YBA
 }
 
 local Assets = {
